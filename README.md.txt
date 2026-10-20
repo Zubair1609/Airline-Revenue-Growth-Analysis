@@ -1,63 +1,74 @@
 # Airline Revenue Growth Analysis 📈
+	
 Python Mini Project 2 // Airline Revenue
 
 ## Objective
-Analyze airline revenue growth trends across months and quarters to identify patterns, growth drivers, and areas of stabilization.
+
+Analyze airline revenue trends across quarters and years to identify growth patterns, route performance, and business opportunities.
 
 ## Folder Structure
-├── Data/               # raw datasets (CSV, Excel)
-├── Notebooks/          # Jupyter notebooks or Python scripts
-├── Visuals/            # charts and graphs (PNG, JPG)
-├── README.md           # project documentation
-└── Requirements.txt    # list of Python libraries (optional)
+
+├── Data/               # raw datasets (CSV, Excel)  
+├── Notebooks/          # Jupyter notebooks or Python scripts  
+├── Visuals/            # charts and graphs (PNG, JPG)  
+├── README.md           # project documentation  
+└── Requirements.txt    # list of Python libraries
 
 ## Methodology
-1. Aggregate monthly and quarterly revenue data.
-2. Calculate growth rates (MoM, QoQ).
-3. Identify peak growth periods and stabilization phases.
-4. Visualize growth trends using line and bar charts.
+
+1. Created a synthetic airline revenue dataset.
+2. Added real-world data quality issues (missing values, duplicates, spelling errors, and outliers).
+3. Performed data cleaning and preprocessing.
+4. Calculated route contribution percentages.
+5. Analyzed quarterly and yearly revenue trends.
+6. Measured QoQ and YoY growth rates.
+7. Visualized revenue performance and route rankings.
 
 ## Visuals
 
-### Monthly Revenue Growth
-![Monthly Growth](Visuals/Monthly_Revenue_Growth.png)
+### Quarterly Revenue Trend
+![Quarterly Revenue Trend](Visuals/Quarterly_Revenue_Trend.png)
 
-### Quarterly Revenue Growth
-![Quarterly Growth](Visuals/Quarterly_Revenue_Growth.png)
+### QoQ Growth (%)
+![QoQ Growth](Visuals/QoQ_Growth.png) 
 
-### Year-over-Year Growth
-![YoY Growth](Visuals/Year_Over_Year_Growth.png)
+### YoY Growth (%)
+![YoY Growth](Visuals/YoY_Growth.png)
 
-### Top Growth Routes
-![Top Growth Routes](Visuals/Top_Growth_Routes.png)
+### Yearly Revenue
+![Yearly Revenue](Visuals/Yearly_Revenue.png)
 
-### Weak Growth Routes
-![Weak Growth Routes](Visuals/Weak_Growth_Routes.png)
+### Top 5 Routes by Revenue
+![Top 5 Routes by Revenue](Visuals/Top_5_Routes_by_Revenue.png)
 
-## Visual Summary (3-Word Insights + Explanation)
+## Visual Summary
 
-| Visualization               | Key Insight (3 words)   | Explanation                                                                 |
-|-----------------------------|-------------------------|-----------------------------------------------------------------------------|
-| Monthly Revenue Growth      | Sharp Seasonal Rise     | Certain months show strong growth spikes, linked to seasonal demand.        |
-| Quarterly Revenue Growth    | Sustained Momentum      | Q2 and Q3 maintain consistent growth, indicating stable demand.             |
-| Year-over-Year Growth       | Positive Long-Term Trend| Overall revenue shows steady YoY improvement, confirming resilience.        |
-| Top Growth Routes           | BLR Growth Driver       | Bengaluru route continues to lead growth, reinforcing its dominance.        |
-| Weak Growth Routes          | Underperforming Routes  | Some routes show stagnant growth, requiring strategic review.               |
+| Visualization           | Key Insight               | Explanation                                                         |
+|-------------------------|---------------------------|---------------------------------------------------------------------|
+| Quarterly Revenue Trend | Revenue Growth Pattern    | Quarterly revenue highlights growth and decline patterns over time. |
+| QoQ Growth (%)          | Short-Term Momentum       | Measures revenue growth compared with the previous quarter.         |
+| YoY Growth (%)          | Long-Term Growth          | Compares the same quarter across different years.                   | 
+| Yearly Revenue          | Annual Performance Review | Summarizes yearly revenue performance and overall business growth.  |
+| Top 5 Routes by Revenue | Revenue Driving Routes    | Identifies routes contributing the highest revenue.                 |
 
-## Insights
-- Growth is strongest in Q2, with stabilization in Q3.  
-- Bengaluru (BLR) remains the primary growth driver.  
-- Certain routes show weak or stagnant growth, pulling down overall performance.  
-- Year-over-Year analysis confirms resilience and long-term upward trend.  
+## Insights											
+
+- Quarterly revenue trends reveal fluctuations in demand across different periods.
+- QoQ growth helps measure short-term business momentum.
+- YoY growth provides a long-term view of revenue performance.
+- A small number of routes contribute a significant share of total revenue.
+- Revenue concentration highlights the importance of monitoring key routes.
 
 ## Recommendations
-- **Strengthen Growth Drivers:** Continue investing in high-growth routes like BLR.  
-- **Revive Weak Routes:** Reassess underperforming routes with pricing, promotions, or restructuring.  
-- **Seasonal Strategy:** Align capacity and marketing with peak growth months.  
-- **Long-Term Planning:** Use YoY trends to forecast and plan sustainable expansion.  
-- **Diversification:** Explore new routes to reduce over-reliance on a few growth drivers.  
+
+- Focus commercial efforts on the highest revenue-generating routes.
+- Monitor routes showing declining QoQ performance.
+- Use YoY trends for annual planning and forecasting.
+- Reduce dependency on a small number of routes by improving weaker routes.
+- Continuously track revenue growth metrics for better decision-making.
 
 ## Tech Stack
-- Python (Pandas, Matplotlib, Seaborn)
+
+- Python (Pandas, NumPy, Matplotlib)
 - Jupyter Notebook
-- GitHub for version control
+- GitHub for Version Control
