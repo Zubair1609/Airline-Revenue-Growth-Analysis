@@ -1,0 +1,5 @@
+## Tech Stack
+
+pandas
+numpy
+matplotlib
