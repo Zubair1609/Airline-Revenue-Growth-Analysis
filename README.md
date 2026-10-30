@@ -26,6 +26,14 @@ Analyze airline revenue trends across quarters and years to identify growth patt
 6. Measured QoQ and YoY growth rates.
 7. Visualized revenue performance and route rankings.
 
+## Power BI Dashboard
+Developed an interactive Power BI dashboard to analyze airline revenue growth, route performance, quarterly trends, passenger demand, and yield metrics.
+
+# Airline Revenue Growth Dashboard
+
+<img width="1297" height="740" alt="image" src="https://github.com/user-attachments/assets/c6846e93-a10e-49e6-8939-1e1e7c08c93e" />
+
+
 ## Visuals
 
 ### Quarterly Revenue Trend
@@ -73,4 +81,5 @@ Analyze airline revenue trends across quarters and years to identify growth patt
 
 - Python (Pandas, NumPy, Matplotlib)
 - Jupyter Notebook
+- Power BI
 - GitHub for Version Control
